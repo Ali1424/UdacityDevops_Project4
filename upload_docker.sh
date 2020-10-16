@@ -1,4 +1,4 @@
-dockerpath= udacitydevopsali/project4
+dockerpath= ali1424/udacityDevops_Project4
 
 export DOCKER_ID_USER="Ali1424"
 docker login
