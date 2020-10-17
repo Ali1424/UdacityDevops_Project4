@@ -1,0 +1,5 @@
+NAME                                 READY   STATUS    RESTARTS   AGE
+udacity-project-4_-86858d8ccf-jrzbw   1/1     Running   0          62s
+udacity-project-4_-86858d8ccf-vjgp8   1/1     Running   0          62s
+Forwarding from 0.0.0.0:8000 -> 80
+Handling connection for 8000
