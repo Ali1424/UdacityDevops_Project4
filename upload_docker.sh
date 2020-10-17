@@ -1,7 +1,12 @@
-dockerpath= ali1424/udacityDevops_Project4
+dockerpath=udacitydevopsali/project4
 
-export DOCKER_ID_USER="Ali1424"
+export DOCKER_ID_USER="udacitydevopsali"
 docker login
-docker tag project4 $DOCKER_ID_USER/project4
-docker push $DOCKER_ID_USER/project4
-docker push udacitydevopsali/project4
+localdockerpath=project4
+# Step 2:  
+# Authenticate & tag
+echo "Docker ID and Image: $dockerpath"
+docker tag $localdockerpath:latest $dockerpath:latest
+# Step 3:
+# Push image to a docker repository
+docker push $dockerpath
